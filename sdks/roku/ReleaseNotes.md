@@ -3,7 +3,7 @@
 Included are notes from the latest major revision to current.
 
 For full documentation please visit:
-https://docs.adobe.com/content/help/en/media-analytics/using/sdk-implement/download-sdks.html
+https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html
 
 ## 2.2.7 (12 August, 2024)
 What's new:
@@ -69,7 +69,7 @@ What’s new :
 What’s new :
 - Added SceneGraph compatibility to AdobeMobileLibrary
 - Misc. bug fixes
-- API changes: AdobeMobile APIs and Constants have been rewritten into SceneGraph compatible node. For details, refer to the SceneGraph section of the Roku documentation: https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/roku/c_vhl_sg_titlepage.html
+- API changes: AdobeMobile APIs and Constants have been rewritten into SceneGraph compatible node. For details, refer to the SceneGraph section of the Roku documentation: https://experienceleague.adobe.com/docs/media-analytics/using/implementation/media-sdk/setup/set-up-roku.html
 
 ## 2.0.1 (10 April, 2017)
 What’s new :

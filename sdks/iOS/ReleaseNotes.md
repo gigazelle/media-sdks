@@ -9,9 +9,6 @@ Lighter, Simpler implementation.
     - Error state recovery. Media SDK 2.x keeps track of the current state of the playback. By having internal state logic, Media SDK 2.x can ignore wrong API calls.
     - Clear difference between optional and required media tracking APIs. Optional media tracking features such as chapter tracking, ad tracking, bitrate change, etc. are now tracked through a single media tracking API: trackEvent:.
 
-For full documentation please visit:
-https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/sdk-implement.html
-
 ## 2.3.0 (December 18, 2020)
 - General - The SDK is now distributed using XCFrameworks in order to support hardware with the new Apple M1 architecture while maintaining support for existing Intel architecture.
   - **IMPORTANT**: Upgrading to MediaSDK XCFrameworks requires Xcode 12.0 or newer
@@ -55,7 +52,7 @@ https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/sdk-i
 - Bug fixes to improve stability and SDK performance.
 
 ## 2.0.1 (11 Oct, 2016)
-What’s new :
+What's new :
 - Bug fixing to improve stability and performance.
 
 ## 2.0.0 (July 15, 2016)

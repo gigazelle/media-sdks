@@ -6,19 +6,26 @@ Adobe Analytics for Audio and Video is an add-on to the base Analytics offering 
 
 Starting with v2.2 release, the Video Heartbeat Library (VHL) SDKs are renamed to Media SDKs to support Audio and Video tracking. The Media 2.2 SDK is fully backwards compatible with the VHL 2.x SDK series. The name change does not represent a functional break, simply a change in naming convention.
 
-Starting with v3.0, the SDK uses Media Collection API for tracking. The 3.x SDK is not backward compatible with 2.x SDK series.
-For more information on media collection endpoint, contact your Adobe representative.
+Starting with v3.0, the SDK uses Media Collection API for tracking. The 3.x SDK is not backward compatible with the 2.x SDK.
 
-For additional information regarding Adobe Analytics for Audio and Video, please visit our [documentation](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+For additional information regarding Adobe Analytics for Audio and Video, see the [Streaming Media services documentation](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
-### Links for API documentation.
+## SDK documentation and guides
 
-[Android](https://adobe-marketing-cloud.github.io/media-sdks/reference/android/)
+See the [docs/](./docs/) folder for setup guides, migration references, and validation docs organized by SDK version:
 
-[iOS](https://adobe-marketing-cloud.github.io/media-sdks/reference/ios/)
+| Version | Status | Platforms |
+|---|---|---|
+| 3.x | Supported (Analytics-only) — docs on [Experience League](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html) | JavaScript, Chromecast, Roku |
+| [2.x](./docs/2.x/) | End of support Aug 31, 2021 | Android, iOS, JavaScript |
+| [1.x](https://github.com/Adobe-Marketing-Cloud/video-heartbeat/tree/master/docs) | Deprecated | Android, iOS, JavaScript, Apple TV, Chromecast, Roku, TVML |
 
-[Javascript (Browser)](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/)
+See the [samples/](./samples/) folder for runnable code examples organized by SDK version.
 
-[Javascript 3.x (Browser)](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/index.html)
+### Links for API documentation
 
-[Chromecast](https://adobe-marketing-cloud.github.io/media-sdks/reference/chromecast/)
+* [Android](https://adobe-marketing-cloud.github.io/media-sdks/reference/android/)
+* [iOS](https://adobe-marketing-cloud.github.io/media-sdks/reference/ios/)
+* [Javascript (Browser)](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/)
+* [Javascript 3.x (Browser)](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/index.html)
+* [Chromecast](https://adobe-marketing-cloud.github.io/media-sdks/reference/chromecast/)

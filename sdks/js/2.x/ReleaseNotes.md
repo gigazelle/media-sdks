@@ -6,18 +6,15 @@ What's new in 2.x:
 
 Lighter, Simpler implementation.
 
-	- Streamlined implementation and configuration. With VHL 2.x, all the configuration and video tracking API calls are centralized through a single class: MediaHeartbeat.
-	- Error state recovery. VHL 2.x keeps track of the current state of the playback. By having internal state logic, VHL 2.x can ignore wrong API calls.
-	- Clear difference between optional and required video tracking APIs. Optional video tracking features such as chapter tracking, ad tracking, bitrate change, etc. are now tracked through a single video tracking API: trackEvent.
-
-For full documentation please visit:
-https://docs.adobe.com/content/help/en/media-analytics/using/sdk-implement/setup/set-up-js.html
+    - Streamlined implementation and configuration. With VHL 2.x, all the configuration and video tracking API calls are centralized through a single class: MediaHeartbeat.
+    - Error state recovery. VHL 2.x keeps track of the current state of the playback. By having internal state logic, VHL 2.x can ignore wrong API calls.
+    - Clear difference between optional and required video tracking APIs. Optional video tracking features such as chapter tracking, ad tracking, bitrate change, etc. are now tracked through a single video tracking API: trackEvent.
 
 ## 2.2.2 (June 24, 2020)
 - Bug fixes to improve stability and SDK performance.
 
 ## 2.2.1 (October 11, 2019)
-- Added support for [Adobe Opt In service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/getting-started.html).
+- Added support for [Adobe Opt In service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/getting-started.html).
 - Bug fixes to improve stability and SDK performance.
 
 ## 2.2.0 (February 12, 2019)
