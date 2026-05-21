@@ -16,7 +16,7 @@ See the [docs/](./docs/) folder for setup guides, migration references, and vali
 
 | Version | Status | Platforms |
 |---|---|---|
-| 3.x | Supported (Analytics-only) — docs on [Experience League](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html) | JavaScript, Chromecast, Roku |
+| [3.x](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html) | Supported (Analytics only) | JavaScript, Chromecast, Roku |
 | [2.x](./docs/2.x/) | End of support Aug 31, 2021 | Android, iOS, JavaScript |
 | [1.x](https://github.com/Adobe-Marketing-Cloud/video-heartbeat/tree/master/docs) | Deprecated | Android, iOS, JavaScript, Apple TV, Chromecast, Roku, TVML |
 
