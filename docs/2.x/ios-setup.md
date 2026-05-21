@@ -131,7 +131,7 @@ Learn to set up the streaming media services for iOS devices.
 
 In version 2.x, all of the public methods are consolidated into the `ADBMediaHeartbeat` class to make it easier on developers. All configurations have been consolidated into the `ADBMediaHeartbeatConfig` class.
 
-For information about migrating from 1.x to 2.x, see the [1.x to 2.x migration guide](../migration/1x-to-2x.md).
+For information about migrating from 1.x to 2.x, see the [1.x to 2.x migration guide](./migration/1x-to-2x.md).
 
 ## Configure a Native App for tvOS
 

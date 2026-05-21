@@ -102,4 +102,4 @@
 
 In version 2.x, all of the public methods are consolidated into the `ADB.va.MediaHeartbeat` class to make it easier on developers. Also, all configs are now consolidated into the `ADB.va.MediaHeartbeatConfig` class.
 
-For information about migrating from 1.x to 2.x, see the [1.x to 2.x migration guide](../migration/1x-to-2x.md).
+For information about migrating from 1.x to 2.x, see the [1.x to 2.x migration guide](./migration/1x-to-2x.md).

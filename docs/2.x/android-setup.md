@@ -118,4 +118,4 @@ To add these permissions, add the following lines to your `AndroidManifest.xml` 
 
 In versions 2.x, all of the public methods are consolidated into the `com.adobe.primetime.va.simple.MediaHeartbeat` class to make it easier on developers. Also, all configs are now consolidated into the `com.adobe.primetime.va.simple.MediaHeartbeatConfig` class.
 
-For information about migrating from 1.x to 2.x, see the [1.x to 2.x migration guide](../migration/1x-to-2x.md).
+For information about migrating from 1.x to 2.x, see the [1.x to 2.x migration guide](./migration/1x-to-2x.md).
