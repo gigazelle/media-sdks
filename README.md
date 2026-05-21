@@ -20,8 +20,6 @@ See the [docs/](./docs/) folder for setup guides, migration references, and vali
 | [2.x](./docs/2.x/) | End of support Aug 31, 2021 | Android, iOS, JavaScript |
 | [1.x](https://github.com/Adobe-Marketing-Cloud/video-heartbeat/tree/master/docs) | Deprecated | Android, iOS, JavaScript, Apple TV, Chromecast, Roku, TVML |
 
-See the [samples/](./samples/) folder for runnable code examples organized by SDK version.
-
 ### Links for API documentation
 
 * [Android](https://adobe-marketing-cloud.github.io/media-sdks/reference/android/)
