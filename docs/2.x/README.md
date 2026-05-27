@@ -4,6 +4,29 @@
 
 After you download the Media SDK for your video app or player, follow the information in this section to setup and implement the Media SDK.
 
+## Platform setup guides
+
+- [Android](android-setup.md)
+- [iOS](ios-setup.md)
+- [JavaScript](javascript-setup.md)
+- [Roku](roku-setup.md)
+- [Roku SceneGraph](roku-scenegraph.md)
+- [Chromecast](chromecast-setup.md)
+
+## Tracking Scenarios
+
+- [VOD Playback with No Ads](scenarios/vod-no-intrs-details.md)
+- [VOD Playback with Buffering](scenarios/vod-buffering.md)
+- [VOD Playback with One Chapter](scenarios/vod-one-chapter.md)
+- [VOD Playback with Seeking](scenarios/vod-seeking.md)
+- [VOD Playback with Pre-roll Ads](scenarios/vod-preroll-ads.md)
+- [VOD Playback with Skipped Ads](scenarios/vod-skipped-ads.md)
+- [VOD Playback with a Skipped Chapter](scenarios/vod-skipped-chapter.md)
+- [VOD Multiple Trackers in Parallel](scenarios/vod-multi-trackers.md)
+- [VOD One Tracker for Multiple Sessions](scenarios/vod-multi-track-one-session.md)
+- [Live Main Content](scenarios/live-main-content.md)
+- [Live Main Content with Sequential Tracking](scenarios/live-sequential.md)
+
 ## General Implementation Guidelines
 
 There are three main SDK components used in tracking with streaming media services:
@@ -18,7 +41,7 @@ To setup and use the Streaming Media SDK, complete the following implementation 
 
 1. Create a `MediaHeartbeatConfig` instance and set your configuration parameter values.
 
-   |  Variable Name | Description | Required | Default Value |
+   | Variable name | Description | Required | Default value |
    |---|---|:---:|---|
    | `trackingServer` | Tracking server for media analytics. This is different from your analytics tracking server. | Yes | Empty String |
    | `channel` | Channel name | No | Empty String |
